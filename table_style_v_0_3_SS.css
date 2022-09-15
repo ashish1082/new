@@ -1,0 +1,81 @@
+.self{
+font-size: 2rem;
+color:#1e5f8b ;
+}
+
+
+
+
+.table-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}
+
+.page-width {
+  width: 70vw;
+  border: 2px solid #15abe2;
+}
+.dropdown{
+  width: 70vw;
+  display: flex;
+  justify-content: end;
+  color: #15abe2;
+  font-weight: 500;
+  
+}
+.dropdown .dropbox{
+  margin-right:10px;
+ 
+  
+}
+.dropdown .dropbox select, option{
+  border-radius: 10px;
+  border: 2px #15abe2 solid;
+  color: #15abe2;
+  width: 150px;
+  
+}
+.dropdown .filter{
+  background-color: #FFFFFF;
+  color: #43b02a;
+  font-weight: 600;
+  border: 2px solid #43b02a;
+  border-radius: 10px;
+}
+.dropdown .filter:hover{
+  background-color: #43b02a;
+  color:#ffffff;
+}
+.table-body tr{
+  cursor: pointer;
+}
+.table-body .element{
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-right: 10px;
+}
+.child-tab {
+  display: none;
+}
+.HCP-tab {
+  display: none;
+
+}
+.HCP-tab td{
+  padding-left:20px
+}
+.parent{
+  font-weight: 500;
+}
+.child-table{
+  background-color: #e2f6ff;
+  
+}
+.child-data{
+  width: 100%;
+}
